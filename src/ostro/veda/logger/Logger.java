@@ -1,4 +1,4 @@
-package ostro.veda;
+package ostro.veda.logger;
 
 import java.io.IOException;
 import java.nio.file.Files;
