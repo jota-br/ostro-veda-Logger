@@ -1,4 +1,4 @@
-name: Java CI with Maven and Hibernate
+name: Java CI with Maven
 
 on:
   push:
