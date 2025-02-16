@@ -1,6 +1,6 @@
 # Logger Class
 
-The `Logger` class in the `ostro.veda` package provides functionality for logging exceptions to a file. It includes methods to format the stack trace of an exception and write it to a log file.
+The `Logger` class in the `main.java.ostro.veda` package provides functionality for logging exceptions to a file. It includes methods to format the stack trace of an exception and write it to a log file.
 
 ## Features
 

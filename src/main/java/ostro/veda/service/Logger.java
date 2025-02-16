@@ -16,10 +16,9 @@ public class Logger {
 
         List<String> lines = getLog(exception);
         writeLog(lines);
-
     }
 
-    public static synchronized List<String> getLog(Exception exception) {
+    private static synchronized List<String> getLog(Exception exception) {
 
         List<String> lines = new ArrayList<>();
         int size = exception.getStackTrace().length - 1;
@@ -60,7 +59,7 @@ public class Logger {
         return lines;
     }
 
-    public static void writeLog(List<String> lines) {
+    private static void writeLog(List<String> lines) {
 
         Path path = Paths.get("logs/logger-" + LocalDate.now() + ".txt");
         try {
